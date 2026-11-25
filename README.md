@@ -6,6 +6,8 @@ By [Gnomalab Estudio](https://www.gnomalab.es) · Juanjo F.R.
 
 VDMX6 Plus is the only VDMX edition that can run TouchDesigner components (TDIO). A TDIO has a strict contract: one root `baseCOMP`, a single `Custom` parameter page, a `Rendersize` parameter, `inputImage` / `outputImage` operators, and so on. This tool reads your component, checks it against that contract, wraps it (your original stays untouched inside) and saves a ready-to-use TDIO.
 
+![TDIO Converter panel with a template loaded: ready for VDMX](docs/screenshot.png)
+
 ▶ **Demo video:** [watch on YouTube](https://www.youtube.com/watch?v=Vizdxj-I-rU) (a lighter copy is in [docs/](docs/TDIO_Converter_demo.mp4))
 
 ## What it does
@@ -28,7 +30,22 @@ VDMX6 Plus is the only VDMX edition that can run TouchDesigner components (TDIO)
 | `TDIO_Converter_Demo.toe` | Ready-made project with the converter. Keep it in the same folder as `TDIO_Converter.tox`. |
 | `Templates/` | The 18 starter templates as plain `.tox` files (they are also built into the converter). |
 | `TDIO Converter - User Guide.pdf` | Step-by-step guide. |
-| `docs/` | Demo video. |
+| `docs/` | Screenshot and demo video. |
+
+## Quick guide
+
+1. **Load** a component: drag a COMP from your network or a `.tox` from your files onto the converter, or click the drop zone to browse. Or start from the orange **Template** button.
+2. **Read the report.** The status bar says what you have: green = ready, amber = ready with warnings, red = cannot be converted yet. Warnings are always on top; click **Repair** when it is offered.
+3. **Check name and type.** The name is editable; the type button (*Auto · FX*) forces FX, Source, Text Source or Plugin.
+4. **Test it.** Open the *TDIO test* section (or the large test view) to see the saved TDIO working at any layer size, with the same parameters and ranges VDMX will show.
+5. **Install.** *Install in VDMX* (Mac) puts it in the right VDMX folder; *Convert only* saves it wherever you choose.
+6. **Use it in VDMX.** Add the TDIO to a layer. If you replaced an existing one, remove it and add it again, or restart VDMX.
+
+The PDF user guide has the full walkthrough.
+
+## Updates
+
+On the converter's *Beta Tester* parameter page, **Check for Updates** looks for the latest version published on this repository's [Releases](../../releases) page and shows a download link when there is a newer one. *Check on Start* does it silently each time the project opens. Nothing else is ever sent.
 
 ## Requirements
 
@@ -36,14 +53,10 @@ VDMX6 Plus is the only VDMX edition that can run TouchDesigner components (TDIO)
 - **VDMX6 Plus** to use the resulting TDIO.
 - macOS to install straight into VDMX. VDMX only exists on Mac: on Windows the converter runs, but *Install in VDMX* and *Open VDMX* are disabled, so use *Convert only* and copy the result by hand. Windows has not been tested yet.
 
-## Install and use
+## Install
 
-1. Download this repository (Code > Download ZIP) or the package on the [Releases](../../releases) page.
+1. Download the package from the [Releases](../../releases) page (or this repository: Code > Download ZIP).
 2. Open `TDIO_Converter_Demo.toe`, or drag `TDIO_Converter.tox` into any TouchDesigner project (an empty one is fine).
-3. Drop a COMP from your network, or a `.tox` from your files, onto the converter. No file at hand? Click the orange **Template** button.
-4. Read the report: green = ready, amber = ready with warnings, red = cannot be converted yet.
-5. Press **Install in VDMX** (Mac) or **Convert only** (Mac and PC).
-6. In VDMX, add the TDIO to a layer. VDMX does not hot-reload a changed TDIO: remove it and add it again, or restart VDMX.
 
 VDMX reads TDIOs from `~/Library/Application Support/VDMX/` (`TouchDesignerFX`, `TouchDesignerSources`, `TouchDesignerTextSources` and `plugins`).
 
