@@ -1,0 +1,218 @@
+[
+ {
+  "file": "Gn8Bits.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Gn8Bits",
+   "es": "Gn8Bits"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "GnEdge.tox",
+  "kind": "fx",
+  "name": {
+   "en": "GnEdge",
+   "es": "GnEdge"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplBrightness.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Brightness",
+   "es": "Brightness"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplGlow.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Glow",
+   "es": "Glow"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplGradient.tox",
+  "kind": "source",
+  "name": {
+   "en": "Gradient",
+   "es": "Gradient"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplLayers.tox",
+  "kind": "source",
+  "name": {
+   "en": "Layers",
+   "es": "Layers"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplMirror.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Mirror",
+   "es": "Mirror"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplNoise.tox",
+  "kind": "source",
+  "name": {
+   "en": "Noise",
+   "es": "Noise"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplPattern.tox",
+  "kind": "source",
+  "name": {
+   "en": "Pattern",
+   "es": "Pattern"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplPlasma.tox",
+  "kind": "source",
+  "name": {
+   "en": "Plasma",
+   "es": "Plasma"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplPlugin.tox",
+  "kind": "plugin",
+  "name": {
+   "en": "Plugin",
+   "es": "Plugin"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplRGBSplit.tox",
+  "kind": "fx",
+  "name": {
+   "en": "RGBSplit",
+   "es": "RGBSplit"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplShapes.tox",
+  "kind": "source",
+  "name": {
+   "en": "Shapes",
+   "es": "Shapes"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplText.tox",
+  "kind": "textsource",
+  "name": {
+   "en": "Text",
+   "es": "Text"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplTint.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Tint",
+   "es": "Tint"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplTrails.tox",
+  "kind": "fx",
+  "name": {
+   "en": "Trails",
+   "es": "Trails"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplWireSphere.tox",
+  "kind": "source",
+  "name": {
+   "en": "WireSphere",
+   "es": "WireSphere"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ },
+ {
+  "file": "TplWireTorus.tox",
+  "kind": "source",
+  "name": {
+   "en": "WireTorus",
+   "es": "WireTorus"
+  },
+  "desc": {
+   "en": "",
+   "es": ""
+  }
+ }
+]
